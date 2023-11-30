@@ -74,6 +74,11 @@ p {
     text-align: center;
 }
 
+.p-div{
+    text-align: left;
+    margin-left: 20%;
+}
+
 .row::after {
     content: "";
     clear: both;
@@ -106,7 +111,7 @@ a {
 }
 
 .note-div {
-    margin-top: 165px;
+    margin-top: 7%;
     text-align: center;
 }
 
