@@ -4,7 +4,7 @@ body {
 
 .title{
     font-family: cambria;
-    font-size: 40px;
+    /* font-size: 40px; */
     color: #05386B;
 }
 
@@ -13,13 +13,13 @@ body {
 }
 
 th{
-    font-size: 28px;
+    /* font-size: 28px; */
     font-family: cambria;
     color: #E27D60;
 }
 
 td {
-    font-size: 25px;
+    /* font-size: 25px; */
     font-family: cambria;
     color: #EDF5E1;
     padding: 15px;
@@ -28,6 +28,30 @@ td {
 table{
     margin-left: auto;
     margin-right: auto;
+}
+
+@media screen and (min-width:601px) {
+    .title{
+        font-size: 40px;
+    }
+    .th{
+        font-size: 28px;
+    }
+    .td {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .title {
+        font-size: 25px;
+    }
+    .th{
+        font-size: 18px;
+    }
+    .td {
+        font-size: 13px;
+    }
 }
 
 table, th, td {

@@ -30,7 +30,7 @@ body {
 
 p {
     font-family: cambria;
-    font-size: 20px;
+    /* font-size: 20px; */
     color: #EDF5E1; 
 }
 
@@ -57,7 +57,7 @@ p {
 
 @media screen and (max-width:600px) {
     .column {
-        width: 45%;
+        width: 50%;
     }
     .cisco {
         font-size: 13px;
