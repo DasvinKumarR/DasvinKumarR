@@ -1,0 +1,53 @@
+body {
+    background-color: #5CDB95;
+}
+
+.title{
+    font-family: cambria;
+    font-size: 40px;
+    color: #05386B;
+}
+
+.hori {
+    border: 1px solid #379683;
+}
+
+
+li {
+    font-family: cambria;
+    font-size: 25px;
+    color: #EDF5E1; 
+}
+
+.img{
+    width: 280px;
+    height: 250px;
+}
+
+p {
+    color:#05386B;
+    font-family: cambria;
+    font-size: 20px;
+}
+
+.foot{
+    text-align: center;
+    margin-top: 4%;
+}
+
+.home-btn {
+    border: none;
+    background-color: #05386B;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.home-btn:hover {
+    background-color: #ddd;
+    color: black;
+}
