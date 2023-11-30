@@ -16,11 +16,17 @@ body {
     .title {
         font-size: 45px;
     }
+    li {
+        font-size: 25px;
+    }
 }
 
 @media screen and (max-width:600px) {
     .title {
         font-size: 25px;
+    }
+    li{
+        font-size: 20px;
     }
 }
 
@@ -29,7 +35,6 @@ ul {
 }
 
 li {
-    font-size: 25px;
     color: #EDF5E1; 
 }
 
