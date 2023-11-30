@@ -30,6 +30,11 @@ table{
     margin-right: auto;
 }
 
+table, th, td {
+    border: solid 1.5px #05386B;
+    border-collapse: collapse;
+}
+
 .tab-div {
     margin-top: 40px;
 }
