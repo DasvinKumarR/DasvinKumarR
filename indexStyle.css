@@ -1,0 +1,132 @@
+body{
+    background-image: url("images/bgImage2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.title-text{
+    text-align: center;
+}
+
+h1{
+    color: #b3eff2;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    font-family: cursive;
+    opacity: 70%;
+}
+
+@media screen and (min-width: 601px) {
+    h1{
+        font-size: 90px;
+    }
+    h2{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    h1{
+        margin-top: 125px;
+        font-size: 60px;
+    }
+    h2{
+        font-size: 25px;
+    }
+}
+
+h2{
+    margin-top: 10px;
+    font-family: cursive;
+    /*font-size: 40px;*/
+}
+
+.title-word{
+    animation: color-animation 4s linear infinite;
+}
+
+.title-word-1{
+    --color-1: #a4fcf5;
+    --color-2: #f3fca4;
+    --color-3: #f2db29;
+}
+
+.title-word-2 {
+    --color-1: #a3f705;
+    --color-2: #05f7ef;
+    --color-3: #05f705;
+}
+  
+.title-word-3 {
+    --color-1: #c4edf2;
+    --color-2: #a4e0fc;
+    --color-3: #b1f29d;
+}
+
+@keyframes color-animation {
+0%    {color: var(--color-1)}
+  32%   {color: var(--color-1)}
+  33%   {color: var(--color-2)}
+  65%   {color: var(--color-2)}
+  66%   {color: var(--color-3)}
+  99%   {color: var(--color-3)}
+  100%  {color: var(--color-1)}
+}
+
+/*Dropdown*/ 
+
+.dropBtn {
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    color: black;
+    padding: 16px;
+    font-family: cursive;
+    font-size: 20px;
+    border: none;
+}
+
+.dropdown {
+    padding-top: 30px;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    text-align: center;
+    display: none;
+    font-family: cursive;
+    position: absolute;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown:hover .dropBtn {
+    background-color: #d5d6d4;
+}
+
+.drop-cover{
+    text-align: right;
+    margin-right: 20px;
+}
+
+
+

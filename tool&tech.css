@@ -1,0 +1,54 @@
+body {
+    background-color: #5CDB95;
+}
+
+.title{
+    font-family: cambria;
+    font-size: 40px;
+    color: #05386B;
+}
+
+.hori{
+    border: 1px solid #379683;
+}
+
+td{
+    font-family: cambria;
+    color: #EDF5E1;
+    font-size: 23px;
+    padding: 15px;
+}
+
+th {
+    padding: 15px;
+}
+
+.desc-title {
+    color: #E27D60;
+}
+
+table{
+    margin-left: 20px;
+}
+
+.foot{
+    text-align: center;
+    margin-top: 270px;
+}
+
+.home-btn {
+    border: none;
+    background-color: #05386B;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.home-btn:hover {
+    background-color: #ddd;
+    color: black;
+}

@@ -1,0 +1,107 @@
+body {
+    background-color: #5CDB95;
+}
+
+.title{
+    font-family: cambria;
+    /* font-size: 60px; */
+    color: #05386B;
+}
+
+.hori {
+    border: 1px solid #379683;
+}
+
+.tl{
+    width: 32%;
+}
+
+.udy {
+    width: 32%;
+}
+
+.cis{
+    width: 32%;
+}
+
+/* .row {
+    text-align: center;
+} */
+
+p {
+    font-family: cambria;
+    font-size: 20px;
+    color: #EDF5E1; 
+}
+
+.column {
+    float: left;
+    width: 32%;
+    padding: 5px;
+}
+
+.row {
+    text-align: center;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.tlc {
+    margin-top: 40px;
+}
+
+.cisc {
+    margin-top: 36px;
+}
+
+.api {
+    margin-top: 82px;
+}
+
+.cisco {
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+.cisco1{
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.note-div {
+    margin-top: 165px;
+    text-align: center;
+}
+
+.note {
+    color: black;
+}
+
+.foot{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.home-btn {
+    border: none;
+    background-color: #05386B;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.home-btn:hover {
+    background-color: #ddd;
+    color: black;
+}
